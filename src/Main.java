@@ -12,6 +12,11 @@ public class Main {
 
         krankenkasse.addPatient(patient1);
         weitereKrankenkasse.addPatient(patient2);
+
+        patient1.setPatientenname("Max Mustermann - Meier");
+
+        System.out.println("Patient hat einen Doppelnamen erhalten: " + patient1.getPatientenname());
+
     }
 }
 
